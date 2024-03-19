@@ -1,0 +1,238 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.navbar{
+    background-color: #171717 !important;
+    margin-left: 400px !important;
+    margin-right: 400px !important;
+    border-radius: 20px !important;
+}
+.nav-item{
+    padding: 10px !important;
+}
+.name-design{
+    font-size: 50px !important;
+    color: #faca6c !important;
+}
+.name-content{
+    color: white;
+    font-size: 35px !important;
+}
+.top-row{
+    height: 500px !important;
+    width: 100% !important;
+}
+
+.btn-primary{
+    background-color: #171717 !important;
+    color: aliceblue !important;
+    border-radius: 20px !important;
+    width: 100px !important;
+}
+.btn-primary:hover{
+    background-color: #faca6c !important;
+    color: black !important;
+}
+.navbar-brand{
+    display: none;
+}
+.top-container{
+    height: 600px !important;
+    width: 100% !important;
+}
+.middle-container{
+    background-color: #40424a !important;
+    height: auto !important;
+    width: 100% !important;
+}
+.skillscolor{
+    color: #faca6c !important;
+}
+.skillimg{
+    height: 200px !important;
+    width: 200px !important;
+    padding: 10px !important;
+}
+.card{
+    background-color: #606168 !important;
+    border: #3d3e42 !important;
+    border-radius: 20px !important;
+}
+.card:hover{
+    background-color: #f0bf6c !important;
+    transition-duration: 0.5s !important;
+    color: black !important;
+}
+.about-container{
+    height: auto !important;
+    width: 100% !important;
+}
+.aboutme{
+    color: #faca6c !important;
+    text-decoration: none !important;
+}
+.project-heading{
+    cursor: pointer !important;
+    text-decoration: none !important;
+    color: #faca6c !important;
+}
+.about{
+    color: white !important;
+    margin-left: 300px !important;
+    padding: 10px !important;
+}
+.exp-container{
+    background-color: black !important;
+    height: auto+100px !important;
+}
+.exp-content{
+    color: white !important;
+}
+.projectimg{
+    height: 150px !important;
+    width: 150px !important;
+}
+.exp1{
+    position: relative;
+    height: auto !important;
+    width: 80% !important;
+    border-left: 5px solid #c6c6c6 !important;
+}
+.bullet{
+    position: absolute;
+    left: -53px !important;
+    top: -30px !important;
+}
+.second-project{
+    position: relative;
+}
+.second-project .bullet2{
+    position: absolute;
+    left: -53px !important;
+    top: -30px !important;
+}
+.third-project{
+    position: relative;
+}
+.third-project .bullet3{
+    position: absolute;
+    left: -53px !important;
+    top: -30px !important;
+}
+.fourth-project{
+    position: relative;
+}
+.fourth-project .bullet4{
+    position: absolute;
+    left: -53px !important;
+    top: -30px !important;
+}
+.services{
+    background-color: black !important;
+    height: auto !important;
+    width: 100% !important;
+}
+.card-design{
+    height: 330px !important;
+    width: 19rem !important;
+}
+@media screen and (min-width:616px) and (max-width:1025px) {
+    .top-container{
+        height: auto !important;
+        width: 100% !important;
+    }
+    .navbar{
+        background-color: #171717 !important;
+        margin-left: 170px !important;
+        margin-right: 170px !important;
+        border-radius: 20px !important;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1500px) {
+    .navbar{
+        background-color: #171717 !important;
+        margin-left: 170px !important;
+        margin-right: 170px !important;
+        border-radius: 20px !important;
+    }
+}
+@media screen and (min-width:280px) and (max-width:426px) {
+    .navbar-brand{
+        display: initial;
+    }
+    .top-container{
+        height: auto !important;
+        width: 100% !important;
+    }
+    .name-content{
+        margin-top: 10px !important;
+    }
+    .navbar{
+        position: relative !important;
+        background-color: #171717 !important;
+        padding: 3px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        border-radius: 5px !important;
+    }
+    .myimage{
+        height: 410px !important;
+    }
+    .nav-item{
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .about-container{
+        height: auto !important;
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+@media screen and (min-width:425px) and (max-width:615px) {
+    .navbar-brand{
+        display: initial;
+    }
+    .navbar{
+        background-color: #171717 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        border-radius: 20px !important;
+    }
+    .top-container{
+        height: auto !important;
+        width: 100% !important;
+    }
+    .nav-item{
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .about-container{
+        height: 200px !important;
+        width: 300px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1025px) {
+    .top-container{
+        height: auto !important;
+        width: 100% !important;
+    }
+    .navbar{
+        background-color: #171717 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        border-radius: 20px !important;
+    }
+    
+}
