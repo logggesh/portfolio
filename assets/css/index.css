@@ -1,287 +1,306 @@
-@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-*{
-    padding: 0 !important;
-    margin: 0 !important;
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
 }
-body{
-    overflow-x: hidden !important;
+body {
+  overflow-x: hidden !important;
 }
-.navbar{
-    background: #171717 !important;
-    margin-left: 400px !important;
-    margin-right: 400px !important;
-    border-radius: 20px !important;
+.navbar {
+  background: #171717 !important;
+  margin-left: 400px !important;
+  margin-right: 400px !important;
+  border-radius: 20px !important;
 }
-.nav-item{
-    padding: 10px !important;
+.nav-item {
+  padding: 10px !important;
 }
-.name-design{
-    font-family: "Play", sans-serif;
-    font-size: 50px !important;
-    color: #faca6c !important;
+.name-design {
+  font-family: "Play", sans-serif;
+  font-size: 50px !important;
+  color: #faca6c !important;
 }
-.side-nav{
+.side-nav {
+  position: fixed !important;
+  right: 0 !important;
+  top: 100px !important;
+  width: 9% !important;
+}
+.side-nav-remove {
+  text-decoration: none !important;
+  color: #f0bf6c !important;
+}
+.list-group-item {
+  color: #f0bf6c !important;
+}
+.side-nav li {
+  background-color: #171717 !important;
+  border: none !important;
+  padding: 20px !important;
+}
+.name-content {
+  font-family: "Play", sans-serif;
+  color: white;
+  font-size: 35px !important;
+}
+.contact-font {
+  font-family: "Play", sans-serif;
+}
+.top-row {
+  height: 500px !important;
+  width: 100% !important;
+  position: relative !important;
+}
+.btn {
+  font-family: "Play", sans-serif;
+}
+.btn-primary {
+  font-family: "Play", sans-serif;
+  background-color: #171717 !important;
+  color: aliceblue !important;
+  border-radius: 20px !important;
+  width: 100px !important;
+}
+.btn-primary:hover {
+  background-color: #faca6c !important;
+  color: black !important;
+}
+.navbar-brand {
+  display: none;
+}
+.top-container {
+  height: 600px !important;
+  width: 100% !important;
+}
+.middle-container {
+  background-color: #40424a !important;
+  height: auto !important;
+  width: 100% !important;
+}
+.skillscolor {
+  color: #faca6c !important;
+}
+.skillimg {
+  height: 200px !important;
+  width: 200px !important;
+  padding: 10px !important;
+}
+.card {
+  background-color: #606168 !important;
+  border: #3d3e42 !important;
+  border-radius: 20px !important;
+}
+.card:hover {
+  background-color: #f0bf6c !important;
+  transition-duration: 0.5s !important;
+  color: black !important;
+}
+.about-container {
+  height: auto !important;
+  width: 100% !important;
+}
+.aboutme {
+  font-family: "Play", sans-serif;
+  color: #faca6c !important;
+  text-decoration: none !important;
+}
+.project-heading {
+  font-family: "Play", sans-serif;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: #faca6c !important;
+}
+.about {
+  font-family: "Play", sans-serif;
+  color: white !important;
+  margin-left: 300px !important;
+  padding: 10px !important;
+}
+.exp-container {
+  background-color: black !important;
+  height: calc(auto + 500px) !important;
+}
+.exp-content {
+  font-family: "Play", sans-serif;
+  color: white !important;
+}
+.projectimg {
+  height: 150px !important;
+  width: 150px !important;
+}
+.exp1 {
+  position: relative;
+  height: auto !important;
+  width: 80% !important;
+  border-left: 5px solid #c6c6c6 !important;
+}
+.bullet {
+  position: absolute;
+  left: -53px !important;
+  top: -30px !important;
+}
+.second-project {
+  position: relative;
+}
+.second-project .bullet2 {
+  position: absolute;
+  left: -53px !important;
+  top: -30px !important;
+}
+.third-project {
+  position: relative;
+}
+.third-project .bullet3 {
+  position: absolute;
+  left: -53px !important;
+  top: -30px !important;
+}
+.fourth-project {
+  position: relative;
+}
+.fourth-project .bullet4 {
+  position: absolute;
+  left: -53px !important;
+  top: -30px !important;
+}
+.services {
+  background-color: black !important;
+  height: auto !important;
+  width: 100% !important;
+}
+.card-design {
+  height: 330px !important;
+  width: 19rem !important;
+}
+.contactme {
+  height: auto !important;
+  width: 100% !important;
+  background-color: black !important;
+}
+.list-group li {
+  background-color: #171717 !important;
+}
+.width-inc {
+  width: 8% !important;
+}
+.rounded-button{
+    height: 50px !important;
+    width: 70px !important;
+    border-radius: 500px !important;
+    background-color: #171717;
+    border: none !important;
     position: fixed !important;
     right: 0 !important;
-    top: 100px !important;
-    width: 9% !important;
+    top: 650px !important;
 }
-.side-nav-remove{
-    text-decoration: none !important;
-    color: #f0bf6c !important;
-}
-.list-group-item{
-    color: #f0bf6c !important;
-}
-.side-nav li{
+@media screen and (min-width: 616px) and (max-width: 1025px) {
+  .top-container {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .navbar {
     background-color: #171717 !important;
+    margin-left: 170px !important;
+    margin-right: 170px !important;
+    border-radius: 20px !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .navbar {
+    background-color: #171717 !important;
+    margin-left: 170px !important;
+    margin-right: 170px !important;
+    border-radius: 20px !important;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 426px) {
+  .navbar-brand {
+    display: initial;
+  }
+  .top-container {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .name-content {
+    margin-top: 10px !important;
+  }
+  .side-nav {
+    display: none !important;
+  }
+  .rounded-button{
+    height: 50px !important;
+    width: 70px !important;
+    border-radius: 500px !important;
+    background-color: #171717;
     border: none !important;
-    padding: 20px !important;
+    position: fixed !important;
+    right: 0 !important;
+    top: 560px !important;
 }
-.name-content{
-    font-family: "Play", sans-serif;
-    color: white;
-    font-size: 35px !important;
-}
-.contact-font{
-    font-family: "Play", sans-serif;
-}
-.top-row{
-    height: 500px !important;
-    width: 100% !important;
+  .navbar {
     position: relative !important;
-}
-.btn{
-    font-family: "Play", sans-serif;
-}
-.btn-primary{
-    font-family: "Play", sans-serif;
     background-color: #171717 !important;
-    color: aliceblue !important;
-    border-radius: 20px !important;
-    width: 100px !important;
-}
-.btn-primary:hover{
-    background-color: #faca6c !important;
-    color: black !important;
-}
-.navbar-brand{
-    display: none;
-}
-.top-container{
-    height: 600px !important;
-    width: 100% !important;
-}
-.middle-container{
-    background-color: #40424a !important;
+    padding: 3px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    border-radius: 5px !important;
+  }
+  .myimage {
+    height: 410px !important;
+  }
+  .nav-item {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .about {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .about-container {
     height: auto !important;
     width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
-.skillscolor{
-    color: #faca6c !important;
-}
-.skillimg{
+@media screen and (min-width: 425px) and (max-width: 615px) {
+  .navbar-brand {
+    display: initial;
+  }
+  .navbar {
+    background-color: #171717 !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    border-radius: 20px !important;
+  }
+  .top-container {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  .about {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .about-container {
     height: 200px !important;
-    width: 200px !important;
-    padding: 10px !important;
+    width: 300px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
-.card{
-    background-color: #606168 !important;
-    border: #3d3e42 !important;
-    border-radius: 20px !important;
-}
-.card:hover{
-    background-color: #f0bf6c !important;
-    transition-duration: 0.5s !important;
-    color: black !important;
-}
-.about-container{
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .top-container {
     height: auto !important;
     width: 100% !important;
-}
-.aboutme{
-    font-family: "Play", sans-serif;
-    color: #faca6c !important;
-    text-decoration: none !important;
-}
-.project-heading{
-    font-family: "Play", sans-serif;
-    cursor: pointer !important;
-    text-decoration: none !important;
-    color: #faca6c !important;
-}
-.about{
-    font-family: "Play", sans-serif;
-    color: white !important;
-    margin-left: 300px !important;
-    padding: 10px !important;
-}
-.exp-container{
-    background-color: black !important;
-    height: calc(auto + 500px) !important;
-}
-.exp-content{
-    font-family: "Play", sans-serif;
-    color: white !important;
-}
-.projectimg{
-    height: 150px !important;
-    width: 150px !important;
-}
-.exp1{
-    position: relative;
-    height: auto !important;
-    width: 80% !important;
-    border-left: 5px solid #c6c6c6 !important;
-}
-.bullet{
-    position: absolute;
-    left: -53px !important;
-    top: -30px !important;
-}
-.second-project{
-    position: relative;
-}
-.second-project .bullet2{
-    position: absolute;
-    left: -53px !important;
-    top: -30px !important;
-}
-.third-project{
-    position: relative;
-}
-.third-project .bullet3{
-    position: absolute;
-    left: -53px !important;
-    top: -30px !important;
-}
-.fourth-project{
-    position: relative;
-}
-.fourth-project .bullet4{
-    position: absolute;
-    left: -53px !important;
-    top: -30px !important;
-}
-.services{
-    background-color: black !important;
-    height: auto !important;
-    width: 100% !important;
-}
-.card-design{
-    height: 330px !important;
-    width: 19rem !important;
-}
-.contactme{
-    height: auto !important;
-    width: 100% !important;
-    background-color: black !important;
-}
-.list-group li{
+  }
+  .navbar {
     background-color: #171717 !important;
-}
-.width-inc{
-    width: 8% !important;
-}
-@media screen and (min-width:616px) and (max-width:1025px) {
-    .top-container{
-        height: auto !important;
-        width: 100% !important;
-    }
-    .navbar{
-        background-color: #171717 !important;
-        margin-left: 170px !important;
-        margin-right: 170px !important;
-        border-radius: 20px !important;
-    }
-}
-@media screen and (min-width:1024px) and (max-width:1500px) {
-    .navbar{
-        background-color: #171717 !important;
-        margin-left: 170px !important;
-        margin-right: 170px !important;
-        border-radius: 20px !important;
-    }
-}
-@media screen and (min-width:280px) and (max-width:426px) {
-    .navbar-brand{
-        display: initial;
-    }
-    .top-container{
-        height: auto !important;
-        width: 100% !important;
-    }
-    .name-content{
-        margin-top: 10px !important;
-    }
-    .side-nav{
-        display: none !important;
-    }
-    .navbar{
-        position: relative !important;
-        background-color: #171717 !important;
-        padding: 3px !important;
-        margin-left: 20px !important;
-        margin-right: 20px !important;
-        border-radius: 5px !important;
-    }
-    .myimage{
-        height: 410px !important;
-    }
-    .nav-item{
-        display: flex !important;
-        justify-content: center !important;
-    }
-    .about{
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    .about-container{
-        height: auto !important;
-        width: 100% !important;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-}
-@media screen and (min-width:425px) and (max-width:615px) {
-    .navbar-brand{
-        display: initial;
-    }
-    .navbar{
-        background-color: #171717 !important;
-        margin-left: 20px !important;
-        margin-right: 20px !important;
-        border-radius: 20px !important;
-    }
-    .top-container{
-        height: auto !important;
-        width: 100% !important;
-    }
-    .nav-item{
-        display: flex;
-        justify-content: center;
-    }
-    .about{
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    .about-container{
-        height: 200px !important;
-        width: 300px !important;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-}
-@media screen and (min-width:767px) and (max-width:1025px) {
-    .top-container{
-        height: auto !important;
-        width: 100% !important;
-    }
-    .navbar{
-        background-color: #171717 !important;
-        margin-left: 20px !important;
-        margin-right: 20px !important;
-        border-radius: 20px !important;
-    }
-    
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    border-radius: 20px !important;
+  }
 }
