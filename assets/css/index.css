@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 *{
     padding: 0 !important;
     margin: 0 !important;
 }
+body{
+    overflow-x: hidden !important;
+}
 .navbar{
-    background-color: #171717 !important;
+    background: #171717 !important;
     margin-left: 400px !important;
     margin-right: 400px !important;
     border-radius: 20px !important;
@@ -12,19 +16,46 @@
     padding: 10px !important;
 }
 .name-design{
+    font-family: "Play", sans-serif;
     font-size: 50px !important;
     color: #faca6c !important;
 }
+.side-nav{
+    position: fixed !important;
+    right: 0 !important;
+    top: 100px !important;
+    width: 9% !important;
+}
+.side-nav-remove{
+    text-decoration: none !important;
+    color: #f0bf6c !important;
+}
+.list-group-item{
+    color: #f0bf6c !important;
+}
+.side-nav li{
+    background-color: #171717 !important;
+    border: none !important;
+    padding: 20px !important;
+}
 .name-content{
+    font-family: "Play", sans-serif;
     color: white;
     font-size: 35px !important;
+}
+.contact-font{
+    font-family: "Play", sans-serif;
 }
 .top-row{
     height: 500px !important;
     width: 100% !important;
+    position: relative !important;
 }
-
+.btn{
+    font-family: "Play", sans-serif;
+}
 .btn-primary{
+    font-family: "Play", sans-serif;
     background-color: #171717 !important;
     color: aliceblue !important;
     border-radius: 20px !important;
@@ -69,24 +100,28 @@
     width: 100% !important;
 }
 .aboutme{
+    font-family: "Play", sans-serif;
     color: #faca6c !important;
     text-decoration: none !important;
 }
 .project-heading{
+    font-family: "Play", sans-serif;
     cursor: pointer !important;
     text-decoration: none !important;
     color: #faca6c !important;
 }
 .about{
+    font-family: "Play", sans-serif;
     color: white !important;
     margin-left: 300px !important;
     padding: 10px !important;
 }
 .exp-container{
     background-color: black !important;
-    height: auto+100px !important;
+    height: calc(auto + 500px) !important;
 }
 .exp-content{
+    font-family: "Play", sans-serif;
     color: white !important;
 }
 .projectimg{
@@ -137,6 +172,17 @@
     height: 330px !important;
     width: 19rem !important;
 }
+.contactme{
+    height: auto !important;
+    width: 100% !important;
+    background-color: black !important;
+}
+.list-group li{
+    background-color: #171717 !important;
+}
+.width-inc{
+    width: 8% !important;
+}
 @media screen and (min-width:616px) and (max-width:1025px) {
     .top-container{
         height: auto !important;
@@ -168,6 +214,9 @@
     .name-content{
         margin-top: 10px !important;
     }
+    .side-nav{
+        display: none !important;
+    }
     .navbar{
         position: relative !important;
         background-color: #171717 !important;
@@ -180,8 +229,8 @@
         height: 410px !important;
     }
     .nav-item{
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
     }
     .about{
         margin-left: 0px !important;
