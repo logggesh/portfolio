@@ -1,90 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/index.css" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
-  <div class="container-fluid top-container" style="background: url('assets/backgrounds/top-back.jpg') center no-repeat; background-size: cover;">
-    <div class="row">
-      <div class="col-lg-12 mt-5">
-    <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" height="30px" width="30px" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link btn btn-primary" aria-current="page" href="#top">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#about">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#skills">SKILLS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#experience">EXPERIENCE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#services">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-primary" href="#">CONTACT ME</a>
-              </li>
-            </ul>
-          </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="container-fluid top-container"
+      style="
+        background: url('assets/backgrounds/top-back.jpg') center no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="row">
+        <div class="col-lg-12 mt-5">
+          <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><img
+                  src="assets/images/logo.png"
+                  height="30px"
+                  width="30px"
+                  alt=""
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link btn btn-primary"
+                      aria-current="page"
+                      href="#top"
+                      >HOME</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#about">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#skills"
+                      >SKILLS</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#experience"
+                      >EXPERIENCE</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#services"
+                      >SERVICES</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#contactme"
+                      >REACH ME</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
-      </nav>
-      </div>
       </div>
 
       <div class="row top-row" id="top">
         <div class="col-lg-6 d-flex justify-content-center align-items-center">
           <div class="p name-content">
-          I'M <span class="name-design">Logesh M</span><br>
-          Web Developer
+            I'M <span class="name-design">Logesh M</span><br />
+            Web Developer
           </div>
         </div>
         <div class="col-lg-6 d-flex justify-content-center align-items-center">
           <div class="mt-2">
-            <img src="assets/images/logesh.png" class="myimage" height="500px" alt="">
+            <img
+              src="assets/images/logesh.png"
+              class="myimage"
+              height="500px"
+              alt=""
+            />
           </div>
         </div>
+        <ul class="list-group side-nav">
+          <li class="list-group-item">
+            <a href="#top" class="side-nav-remove" id="home">Home</a>
+          </li>
+          <li class="list-group-item">
+            <a class="side-nav-remove" href="#about">About</a>
+          </li>
+          <li class="list-group-item">
+            <a class="side-nav-remove" href="#skills">Skills</a>
+          </li>
+          <li class="list-group-item">
+            <a class="side-nav-remove" href="#experience">Experience</a>
+          </li>
+          <li class="list-group-item">
+            <a class="side-nav-remove" href="#services">Services</a>
+          </li>
+          <li class="list-group-item">
+            <a class="side-nav-remove" href="#contactme">Reach Me</a>
+          </li>
+        </ul>
       </div>
-
-      
-
     </div>
 
-
-    <div class="container-fluid middle-container" style="background: url('assets/backgrounds/middle.jpg') center no-repeat; background-size: cover;">
+    <div
+      class="container-fluid middle-container"
+      style="
+        background: url('assets/backgrounds/middle.jpg') center no-repeat;
+        background-size: cover;
+      "
+    >
       <div class="row">
         <div class="col-lg-12">
           <div class="about-container mt-5">
             <div class="row">
-              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+              <div
+                class="col-lg-6 d-flex justify-content-center align-items-center"
+              >
                 <div class="p mt-3 about text-center" id="about">
                   <div class="h2 aboutme">
-                    <i class="fa-solid fa-circle-info" style="color: #faca6c;"></i>
+                    <i
+                      class="fa-solid fa-circle-info"
+                      style="color: #faca6c"
+                    ></i>
                     ABOUT ME
                   </div>
-                  <br>
-                  As a new graduate with a Intermediate background in <span class="skillscolor">HTML 5, CSS, JavaScript, jQuery, MySQL,PHP and Laravel</span>, I'm excited to start a fulfilling profession where I can put my abilities to use and grow.
-                  Looking for a position in Web Development that will allow me to progress professionally at an
-                  entry level.
+                  <br />
+                  As a new graduate with a Intermediate background in
+                  <span class="skillscolor"
+                    >HTML 5, CSS, JavaScript, jQuery, MySQL,PHP and
+                    Laravel</span
+                  >, I'm excited to start a fulfilling profession where I can
+                  put my abilities to use and grow. Looking for a position in
+                  Web Development that will allow me to progress professionally
+                  at an entry level.
                 </div>
               </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <lottie-player src="https://lottie.host/087076c2-6b6f-4445-a8b1-4ba86791df0a/EI8CUNQueH.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop direction="1" mode="normal"></lottie-player>
+              <div
+                class="col-lg-6 d-flex align-items-center justify-content-center"
+              >
+                <lottie-player
+                  src="https://lottie.host/087076c2-6b6f-4445-a8b1-4ba86791df0a/EI8CUNQueH.json"
+                  background="##FFFFFF"
+                  speed="1"
+                  style="width: 300px; height: 300px"
+                  loop
+                  direction="1"
+                  mode="normal"
+                ></lottie-player>
               </div>
             </div>
           </div>
@@ -94,35 +188,51 @@
           <div class="h2 text-center aboutme">MY SKILLS</div>
 
           <div class="row d-flex align-items-center justify-content-center">
-            <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5">
-              <div class="card" style="width: 13rem;">
-                  <img src="assets/images/html.png" class="skillimg" alt="">
+            <div
+              class="col-lg-4 d-flex align-items-center justify-content-center mt-5"
+            >
+              <div class="card" style="width: 13rem">
+                <img src="assets/images/html.png" class="skillimg" alt="" />
               </div>
             </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5">
-              <div class="card" style="width: 13rem;">
-                  <img src="assets/images/css.png" class="skillimg" alt="">
+            <div
+              class="col-lg-4 d-flex align-items-center justify-content-center mt-5"
+            >
+              <div class="card" style="width: 13rem">
+                <img src="assets/images/css.png" class="skillimg" alt="" />
               </div>
             </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5">
-              <div class="card" style="width: 13rem;">
-                  <img src="assets/images/js.png" class="skillimg" alt="">
+            <div
+              class="col-lg-4 d-flex align-items-center justify-content-center mt-5"
+            >
+              <div class="card" style="width: 13rem">
+                <img src="assets/images/js.png" class="skillimg" alt="" />
               </div>
             </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5">
-              <div class="card" style="width: 13rem;">
-                  <img src="assets/images/bootstrap.png" class="skillimg" alt="">
+            <div
+              class="col-lg-4 d-flex align-items-center justify-content-center mt-5"
+            >
+              <div class="card" style="width: 13rem">
+                <img
+                  src="assets/images/bootstrap.png"
+                  class="skillimg"
+                  alt=""
+                />
               </div>
             </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5">
-              <div class="card" style="width: 13rem;">
-                <img src="assets/images/php.png" class="skillimg" alt="">
+            <div
+              class="col-lg-4 d-flex align-items-center justify-content-center mt-5"
+            >
+              <div class="card" style="width: 13rem">
+                <img src="assets/images/php.png" class="skillimg" alt="" />
               </div>
             </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5">
-              <div class="card" style="width: 13rem;">
-                <img src="assets/images/laravel.png" class="skillimg" alt="">
-              </div>            
+            <div
+              class="col-lg-4 d-flex align-items-center justify-content-center mt-5"
+            >
+              <div class="card" style="width: 13rem">
+                <img src="assets/images/laravel.png" class="skillimg" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -133,52 +243,119 @@
             <div class="col-lg-12">
               <div class="h2 aboutme text-center mt-5">EXPERIENCE</div>
             </div>
-            <div class="col-lg-12 d-flex justify-content-center align-items-center">
+            <div
+              class="col-lg-12 d-flex justify-content-center align-items-center"
+            >
               <div class="exp1 mt-5 ms-3">
                 <div class="col-lg-12">
-                  <span><img src="assets/images/bullet.png" class="bullet" height="100px" width="100px" alt=""></span>
-                  <div class="h2 ms-5 aboutme"><a class="project-heading" href="https://bitty-part.000webhostapp.com/">Event Management System</a></div>
-                  <small class="ms-5 mt-5 exp-content">Full-Stack Development</small>
+                  <span
+                    ><img
+                      src="assets/images/bullet.png"
+                      class="bullet"
+                      height="100px"
+                      width="100px"
+                      alt=""
+                  /></span>
+                  <div class="h2 ms-5 aboutme">
+                    <a
+                      class="project-heading"
+                      href="https://bitty-part.000webhostapp.com/"
+                      >Event Management System</a
+                    >
+                  </div>
+                  <small class="ms-5 mt-5 exp-content"
+                    >Full-Stack Development</small
+                  >
                   <div class="p ms-5 mt-3 exp-content">
-                    Designed and implemented a dynamic full-stack web application for event
-                    management using HTML, CSS, JavaScript, jQuery, PHP, Excel and MySQL
-                    Designed and implemented front-end features for an intuitive user experience and
-                    established efficient back-end solutions for data management
-                    Implemented automated email notifications to participants and co participants upon
-                    event registration, enhancing communication and engagement within the platform
+                    Designed and implemented a dynamic full-stack web
+                    application for event management using HTML, CSS,
+                    JavaScript, jQuery, PHP, Excel and MySQL Designed and
+                    implemented front-end features for an intuitive user
+                    experience and established efficient back-end solutions for
+                    data management Implemented automated email notifications to
+                    participants and co participants upon event registration,
+                    enhancing communication and engagement within the platform
                   </div>
                 </div>
                 <div class="col-lg-12 mt-5 second-project">
-                  <span><img src="assets/images/bullet.png" class="bullet2" height="100px" width="100px" alt=""></span>
-                  <div class="h2 ms-5 aboutme"><a class="project-heading" href="https://unequipped-tent.000webhostapp.com/">Loan Management System</a></div>
-                  <small class="ms-5 mt-5 exp-content">Full-Stack Development</small>
+                  <span
+                    ><img
+                      src="assets/images/bullet.png"
+                      class="bullet2"
+                      height="100px"
+                      width="100px"
+                      alt=""
+                  /></span>
+                  <div class="h2 ms-5 aboutme">
+                    <a
+                      class="project-heading"
+                      href="https://unequipped-tent.000webhostapp.com/"
+                      >Loan Management System</a
+                    >
+                  </div>
+                  <small class="ms-5 mt-5 exp-content"
+                    >Full-Stack Development</small
+                  >
                   <div class="p ms-5 mt-3 exp-content">
-                    Developed a full-stack web application using HTML, CSS, JavaScript, and jQuery, with
-                    backend operations powered by MySQL and PHP
-                    The application provides real-time tracking of monthly interest, total pending
-                    amounts, and updates on balance payments
-                    Successfully integrated a user-friendly interface, allowing users to close their loans
-                    upon completion of payments.
-                    Implemented fundamental CRUD operations to facilitate user interaction, enabling
-                    users to avail loans
+                    Developed a full-stack web application using HTML, CSS,
+                    JavaScript, and jQuery, with backend operations powered by
+                    MySQL and PHP The application provides real-time tracking of
+                    monthly interest, total pending amounts, and updates on
+                    balance payments Successfully integrated a user-friendly
+                    interface, allowing users to close their loans upon
+                    completion of payments. Implemented fundamental CRUD
+                    operations to facilitate user interaction, enabling users to
+                    avail loans
                   </div>
                 </div>
                 <div class="col-lg-12 mt-5 third-project">
-                  <span><img src="assets/images/bullet.png" class="bullet3" height="100px" width="100px" alt=""></span>
-                  <div class="h2 ms-5 aboutme"><a class="project-heading" href="https://clingy-turbine.000webhostapp.com/">Wedding Venue Website</a></div>
-                  <small class="ms-5 mt-5 exp-content">Front-End Development</small>
+                  <span
+                    ><img
+                      src="assets/images/bullet.png"
+                      class="bullet3"
+                      height="100px"
+                      width="100px"
+                      alt=""
+                  /></span>
+                  <div class="h2 ms-5 aboutme">
+                    <a
+                      class="project-heading"
+                      href="https://clingy-turbine.000webhostapp.com/"
+                      >Wedding Venue Website</a
+                    >
+                  </div>
+                  <small class="ms-5 mt-5 exp-content"
+                    >Front-End Development</small
+                  >
                   <div class="p ms-5 mt-3 exp-content">
-                    Designed and developed a visually appealing wedding venue website using HTML and
-                    CSS, leveraging the Bootstrap framework for enhanced responsiveness
+                    Designed and developed a visually appealing wedding venue
+                    website using HTML and CSS, leveraging the Bootstrap
+                    framework for enhanced responsiveness
                   </div>
                 </div>
                 <div class="col-lg-12 mt-5 fourth-project">
-                  <span><img src="assets/images/bullet.png" class="bullet4" height="100px" width="100px" alt=""></span>
-                  <div class="h2 ms-5 aboutme"><a class="project-heading" href="https://ophthalmological-tu.000webhostapp.com/">My Portfolio</a></div>
-                  <small class="ms-5 mt-5 exp-content">Front-End Development</small>
+                  <span
+                    ><img
+                      src="assets/images/bullet.png"
+                      class="bullet4"
+                      height="100px"
+                      width="100px"
+                      alt=""
+                  /></span>
+                  <div class="h2 ms-5 aboutme">
+                    <a
+                      class="project-heading"
+                      href="https://ophthalmological-tu.000webhostapp.com/"
+                      >My Portfolio</a
+                    >
+                  </div>
+                  <small class="ms-5 mt-5 exp-content"
+                    >Front-End Development</small
+                  >
                   <div class="p ms-5 mt-3 exp-content">
-                    Crafted a dynamic personal portfolio website using HTML, CSS, and JavaScript to
-                    showcase a collection of completed projects and detailed personal information
+                    Crafted a dynamic personal portfolio website using HTML,
+                    CSS, and JavaScript to showcase a collection of completed
+                    projects and detailed personal information
                   </div>
                 </div>
               </div>
@@ -186,28 +363,98 @@
           </div>
         </div>
       </div>
-    </div>    
+    </div>
 
     <div class="container-fluid services" id="services">
       <div class="row">
         <div class="col-lg-12 mt-5">
           <div class="h2 text-center aboutme">SERVICES</div>
         </div>
-        <div class="col-lg-6 d-flex justify-content-center align-items-center mt-5">
-          <div class="card card-design d-flex justify-content-center align-items-center" style="width: 12rem;">
-            <lottie-player src="https://lottie.host/cb89d954-949d-4343-ac37-0273aa18e26f/5hcBK6IwMT.json" background="#FFFFFF" speed="1" style="width: 250px; height: 250px" loop autoplay direction="1" mode="normal"></lottie-player>
-            <div class="h5 text-center mt-3 text-white">Full-Stack Development</div>
+        <div
+          class="col-lg-6 d-flex justify-content-center align-items-center mt-5"
+        >
+          <div
+            class="card card-design d-flex justify-content-center align-items-center"
+            style="width: 12rem"
+          >
+            <lottie-player
+              src="https://lottie.host/cb89d954-949d-4343-ac37-0273aa18e26f/5hcBK6IwMT.json"
+              background="#FFFFFF"
+              speed="1"
+              style="width: 250px; height: 250px"
+              loop
+              autoplay
+              direction="1"
+              mode="normal"
+            ></lottie-player>
+            <div class="h5 text-center mt-3 text-white">
+              Full-Stack Development
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex justify-content-center align-items-center mt-5">
-          <div class="card card-design d-flex align-items-center justify-content-center" style="width: 12rem;">
-            <lottie-player src="https://lottie.host/e763e750-13bb-48c8-a9ec-7f1adc2c82fe/eA4SFobdvP.json" background="#FFFFFF" speed="1" style="width: 250px; height: 250px" loop autoplay direction="1" mode="normal"></lottie-player>
-            <div class="h5 text-center mt-3 text-white">Front-End Development</div>
+        <div
+          class="col-lg-6 d-flex justify-content-center align-items-center mt-5"
+        >
+          <div
+            class="card card-design d-flex align-items-center justify-content-center"
+            style="width: 12rem"
+          >
+            <lottie-player
+              src="https://lottie.host/e763e750-13bb-48c8-a9ec-7f1adc2c82fe/eA4SFobdvP.json"
+              background="#FFFFFF"
+              speed="1"
+              style="width: 250px; height: 250px"
+              loop
+              autoplay
+              direction="1"
+              mode="normal"
+            ></lottie-player>
+            <div class="h5 text-center mt-3 text-white">
+              Front-End Development
+            </div>
           </div>
         </div>
       </div>
     </div>
-  
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="container-fluid contactme" id="contactme">
+      <div class="row">
+        <div class="col-lg-12 mt-5">
+          <div class="h2 aboutme text-center contact-font">REACH ME</div>
+        </div>
+        <div
+          class="col-lg-12 d-flex justify-content-center align-items-center mt-4"
+        >
+          <div class="p text-white contact-font">
+            <i class="fa-solid fa-phone" style="color: #faca6c"></i>
+            &nbsp;&nbsp;+91 9626855855
+          </div>
+        </div>
+        <div
+          class="col-lg-12 d-flex justify-content-center align-items-center mt-4"
+        >
+          <div class="p text-white contact-font">
+            <i class="fa-solid fa-envelope" style="color: #faca6c"></i>
+            &nbsp;&nbsp;smart.logesh29@gmail.com
+          </div>
+        </div>
+        <div
+          class="col-lg-12 d-flex justify-content-center align-items-center mt-4"
+        >
+          <div class="p text-white contact-font">
+            <i class="fa-solid fa-location-dot" style="color: #faca6c"></i>
+            &nbsp;&nbsp;Tamilnadu,India
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    
+  </script>
 </html>
